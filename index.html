@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>DOM</title>
+    <script src="app.js">
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="button.css">
+</head>
+
+<body>
+    <div class="modal animate__animated hidden animate__bounceIn">
+        <div class="moadal__header">
+            <span class="moadal__header__title">Are you sure?</span>
+            <span class="moadal__header__cros"><svg width="24" height="24" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M24 2.41714L21.5829 0L12 9.58286L2.41714 0L0 2.41714L9.58286 12L0 21.5829L2.41714 24L12 14.4171L21.5829 24L24 21.5829L14.4171 12L24 2.41714Z"
+                        fill="#9FABAE" />
+                </svg>
+            </span>
+        </div>
+        <div class="modal__section">
+            <span class="modal__section__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+                et odio sed est pellentesque gravida sit amet at orci. Phasellus eget iaculis tortor, quis lobortis
+                augue. Proin semper congue libero a efficitur. Nunc molestie efficitur urna, ac imperdiet sapien
+                volutpat non. Sed sed elementum elit.
+            </span>
+        </div>
+        <div class="madal__footer">
+            <button class="madal__footer__btn__cancle">Cancel</button>
+            <button class="madal__footer__btn__ok">Let’s do it!</button>
+        </div>
+    </div>
+
+    <button class="css-button-3d--blue btn" type="button">Open Modal</button>
+
+
+</body>
+
+</html>

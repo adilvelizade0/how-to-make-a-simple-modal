@@ -1,0 +1,7 @@
+{
+  "author": "adilvelizade",
+  "main": "index.html",
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  }
+}
